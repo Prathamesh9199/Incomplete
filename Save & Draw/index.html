@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen" title="no title">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row mt-5 text-center">
+        <div class="col-md-12">
+          <h2>Simple Paint Calculator <img src="painbrush.png" alt="" class="paint"></h2>  
+        </div>  
+      </div>
+
+      <div class="row">        
+        <div class="col-md-12">
+          <canvas id="drawing-area" class="drawing-area" height="500" width="500"></canvas>
+        </div>  
+      </div>
+      <div class="row">        
+        <div class="col-md-12 mt-5">
+          <img src="" id="canvasimg" style="display: none;">
+        </div>  
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+          <button id="clear-button" class="clear-button button btn btn-primary" type="button">Clear</button>
+          <button class="button btn btn-primary" id="saveCanvas" onclick="save()">calculate</button>          
+        </div>      
+      </div>
+
+    </div>        
+
+    <script src="jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="bootstrap.bundle.js"></script>
+
+  </body>
+</html>
